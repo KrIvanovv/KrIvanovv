@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @KrIvanovv
+- 👀 I’m interested in data science
+- 🐍 I’m currently learning python
+- 📧 How to reach me krasimirr.ivanovv@gmail.com
