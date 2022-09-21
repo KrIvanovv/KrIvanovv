@@ -1,0 +1,19 @@
+hour = int(input())
+minutes = int(input())
+arrive_hour= int(input())
+arrive_minutes= int(input())
+hour_sum=abs(hour-arrive_hour)
+min_sum=abs(minutes-arrive_minutes)
+
+if hour == arrive_hour and arrive_minutes in range (0,30):
+    print("On time")
+    print(min_sum, "minutes before the start")
+elif hour  == arrive_hour and arrive_minutes not in range(0,30):
+    print("Too Late")
+    print(min_sum, "minutes after the start")
+elif hour > arrive_hour:
+    print("Too early")
+    print(hour_sum, ".", min_sum, " hours early")
+elif hour < arrive_hour:
+    print("Too Late")
+    print(hour_sum, ".", min_sum, " hours late")
