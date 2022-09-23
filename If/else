@@ -1,0 +1,7 @@
+print("Welcome to the rolercoster ")
+high=int(input("Your high in cm" ))
+
+if high >= 120:
+    print("Yes, you are tall enough ")
+else:
+    print("No, sorry...")
